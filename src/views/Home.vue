@@ -211,7 +211,7 @@ export default {
         "Database Design",
         "Systems Design",
         "Shared Hosting",
-        "Geospatail Analysis",
+        "Geospatial Analysis",
         "Graphics Design",
       ],
     };
