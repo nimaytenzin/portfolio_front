@@ -209,6 +209,7 @@ export default {
       ],
       skills: [
         "Database Design",
+        "Website Design",
         "Systems Design",
         "Shared Hosting",
         "Geospatial Analysis",
