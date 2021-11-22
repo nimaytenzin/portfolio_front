@@ -17,7 +17,7 @@
     <div class="relative h-40">
       <img
         class="absolute h-full w-full object-cover"
-        src="https://scontent.fpbh1-1.fna.fbcdn.net/v/t1.6435-9/242176067_4899316173464739_1174720861220058223_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=e3f864&_nc_ohc=GI41mkcm6JgAX8u-dE0&_nc_ht=scontent.fpbh1-1.fna&oh=2dfb4b835a3d5111bf6358c224182c24&oe=616FB427"
+        src="cover.jpeg"
       />
     </div>
     <div
@@ -36,7 +36,7 @@
     >
       <img
         class="object-cover w-full h-full"
-        src="https://scontent.fpbh1-1.fna.fbcdn.net/v/t1.6435-9/242147682_4899394690123554_3185476395714513696_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=3pVj-PLfxnMAX-gGNL1&tn=wghH5QaUsrUCanE9&_nc_ht=scontent.fpbh1-1.fna&oh=78b08968f1cab81816e018c0bafdf4ea&oe=61718A7A"
+        src="profile.jpeg"
       />
     </div>
     <div class="mt-16">
@@ -44,6 +44,48 @@
       <p class="text-sm text-gray-600 text-center">
         Urban Planner/ Full Stack Developer
       </p>
+
+      <div class="flex justify-center gap-3 text-sm mt-4">
+        <div class="flex items-center justify-center gap-1 cursor-pointer">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-5 w-5 text-sky-900"
+            viewBox="0 0 20 20"
+            fill="currentColor"
+          >
+            <path
+              d="M10.394 2.08a1 1 0 00-.788 0l-7 3a1 1 0 000 1.84L5.25 8.051a.999.999 0 01.356-.257l4-1.714a1 1 0 11.788 1.838L7.667 9.088l1.94.831a1 1 0 00.787 0l7-3a1 1 0 000-1.838l-7-3zM3.31 9.397L5 10.12v4.102a8.969 8.969 0 00-1.05-.174 1 1 0 01-.89-.89 11.115 11.115 0 01.25-3.762zM9.3 16.573A9.026 9.026 0 007 14.935v-3.957l1.818.78a3 3 0 002.364 0l5.508-2.361a11.026 11.026 0 01.25 3.762 1 1 0 01-.89.89 8.968 8.968 0 00-5.35 2.524 1 1 0 01-1.4 0zM6 18a1 1 0 001-1v-2.065a8.935 8.935 0 00-2-.712V17a1 1 0 001 1z"
+            />
+          </svg>
+          Education
+        </div>
+        <div class="flex items-center justify-center gap-1 cursor-pointer">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-5 w-5 text-sky-900"
+            viewBox="0 0 20 20"
+            fill="currentColor"
+          >
+            <path
+              d="M2 6a2 2 0 012-2h5l2 2h5a2 2 0 012 2v6a2 2 0 01-2 2H4a2 2 0 01-2-2V6z"
+            />
+          </svg>
+          Projects
+        </div>
+        <div class="flex items-center justify-center gap-1 cursor-pointer">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-5 w-5 text-sky-900"
+            viewBox="0 0 20 20 "
+            fill="currentColor"
+          >
+            <path
+              d="M13.586 3.586a2 2 0 112.828 2.828l-.793.793-2.828-2.828.793-.793zM11.379 5.793L3 14.172V17h2.828l8.38-8.379-2.83-2.828z"
+            />
+          </svg>
+          Blog
+        </div>
+      </div>
     </div>
 
     <p class="text-sm mt-5 text-center text-gray-600">Languages</p>
@@ -118,8 +160,19 @@
       </div>
     </div>
 
-    <div class="relative   rounded-b-lg mt-4 text-gray-800 text-sm font-thin bg-sky-700 p-6 bg-opacity-20">
-      <div class="flex flex-col gap-2 ">
+    <div
+      class="
+        relative
+        rounded-b-lg
+        mt-4
+        text-gray-800 text-sm
+        font-thin
+        bg-sky-700
+        p-6
+        bg-opacity-20
+      "
+    >
+      <div class="flex flex-col gap-2">
         <div class="flex gap-2">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -195,7 +248,15 @@
 export default {
   data() {
     return {
-      languages: ["Javascript", "GoLang", 'Dart',"HTML/CSS3", "PHP", "Python", "SQL"],
+      languages: [
+        "Javascript",
+        "GoLang",
+        "Dart",
+        "HTML/CSS3",
+        "PHP",
+        "Python",
+        "SQL",
+      ],
       frameworks: [
         "Vue JS",
         "Angular",
@@ -205,7 +266,7 @@ export default {
         "Next JS",
         "POSTGRESql",
         "MYSQL",
-        'Flutter'
+        "Flutter",
       ],
       skills: [
         "Database Design",
@@ -216,6 +277,11 @@ export default {
         "Graphics Design",
       ],
     };
+  },
+  methods: {
+    openTimeline() {
+      this.$router.push("/about");
+    },
   },
 };
 </script>
