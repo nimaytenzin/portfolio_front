@@ -45,20 +45,7 @@
         Urban Planner/ Full Stack Developer
       </p>
 
-      <div class="flex justify-center gap-3 text-sm mt-4">
-        <div class="flex items-center justify-center gap-1 cursor-pointer">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            class="h-5 w-5 text-sky-900"
-            viewBox="0 0 20 20"
-            fill="currentColor"
-          >
-            <path
-              d="M10.394 2.08a1 1 0 00-.788 0l-7 3a1 1 0 000 1.84L5.25 8.051a.999.999 0 01.356-.257l4-1.714a1 1 0 11.788 1.838L7.667 9.088l1.94.831a1 1 0 00.787 0l7-3a1 1 0 000-1.838l-7-3zM3.31 9.397L5 10.12v4.102a8.969 8.969 0 00-1.05-.174 1 1 0 01-.89-.89 11.115 11.115 0 01.25-3.762zM9.3 16.573A9.026 9.026 0 007 14.935v-3.957l1.818.78a3 3 0 002.364 0l5.508-2.361a11.026 11.026 0 01.25 3.762 1 1 0 01-.89.89 8.968 8.968 0 00-5.35 2.524 1 1 0 01-1.4 0zM6 18a1 1 0 001-1v-2.065a8.935 8.935 0 00-2-.712V17a1 1 0 001 1z"
-            />
-          </svg>
-          Education
-        </div>
+      <!-- <div class="flex justify-center gap-3 text-sm mt-4">
         <div class="flex items-center justify-center gap-1 cursor-pointer">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -72,23 +59,11 @@
           </svg>
           Projects
         </div>
-        <div class="flex items-center justify-center gap-1 cursor-pointer">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            class="h-5 w-5 text-sky-900"
-            viewBox="0 0 20 20 "
-            fill="currentColor"
-          >
-            <path
-              d="M13.586 3.586a2 2 0 112.828 2.828l-.793.793-2.828-2.828.793-.793zM11.379 5.793L3 14.172V17h2.828l8.38-8.379-2.83-2.828z"
-            />
-          </svg>
-          Blog
-        </div>
-      </div>
+       
+      </div> -->
     </div>
 
-    <p class="text-sm mt-5 text-center text-gray-600">Languages</p>
+    <p class="text-sm mt-5 text-center text-gray-600">Technologies</p>
     <div class="pt-3 flex flex-wrap mx-6 justify-center border-t">
       <div
         class="
@@ -250,31 +225,32 @@ export default {
     return {
       languages: [
         "Javascript",
-        "GoLang",
         "Dart",
         "HTML/CSS3",
         "PHP",
         "Python",
-        "SQL",
+        "SQL/PostgreSQL/MySQL",
+        "NoSQL/MongoDB",
+        "RabbitMQ",
+        "Docker",
+        "Apache Kafka",
+        "Redis",
+        "CPanel"
       ],
       frameworks: [
         "Vue JS",
         "Angular",
         "Tailwind CSS",
         "Laravel",
-        "Node JS",
-        "Next JS",
-        "POSTGRESql",
-        "MYSQL",
+        "Nest JS",
         "Flutter",
       ],
       skills: [
         "Database Design",
         "Website Design",
-        "Systems Design",
-        "Shared Hosting",
+        "Data Analytics",
         "Geospatial Analysis",
-        "Graphics Design",
+        "Graphics Design"
       ],
     };
   },
