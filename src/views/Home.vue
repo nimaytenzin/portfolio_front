@@ -102,51 +102,11 @@
       </div>
     </div>
 
-    <p class="text-sm mt-5 text-center text-gray-600">FrameWorks</p>
-    <div class="pt-3 flex flex-wrap justify-center mx-6 border-t">
-      <div
-        class="
-          text-xs
-          mr-2
-          my-1
-          uppercase
-          tracking-wider
-          border
-          px-2
-          text-sky-900
-          border-sky-900
-          hover:bg-sky-900 hover:text-sky-100
-          cursor-default
-        "
-        v-for="framework in frameworks"
-        :key="framework"
-      >
-        {{ framework }}
-      </div>
-    </div>
-
+    
     <p class="text-sm mt-5 text-center text-gray-600">Skills</p>
-    <div class="pt-3 flex flex-wrap justify-center mx-6 border-t">
-      <div
-        class="
-          text-xs
-          mr-2
-          my-1
-          uppercase
-          tracking-wider
-          border
-          px-2
-          text-gray-800
-          border-gray-800
-          hover:bg-gray-800 hover:text-gray-100
-          cursor-default
-        "
-        v-for="skill in skills"
-        :key="skill"
-      >
-        {{ skill }}
-      </div>
-    </div>
+    <p>
+      Writing ...dont know waht to write
+    </p>
 
     <div
       class="
