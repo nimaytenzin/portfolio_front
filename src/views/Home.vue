@@ -15,10 +15,7 @@
     "
   >
     <div class="relative h-40">
-      <img
-        class="absolute h-full w-full object-cover"
-        src="cover.jpeg"
-      />
+      <img class="absolute h-full w-full object-cover" src="cover.jpeg" />
     </div>
     <div
       class="
@@ -34,15 +31,22 @@
         border-4
       "
     >
-      <img
-        class="object-cover w-full h-full"
-        src="profile.jpeg"
-      />
+      <img class="object-cover w-full h-full" src="profile.jpeg" />
     </div>
-    <div class="mt-16">
-      <h1 class="text-lg text-center font-semibold">Tenzine Uzumakii</h1>
-      <p class="text-sm text-gray-600 text-center">
-        Urban Planner/ Full Stack Developer
+    <div class="mt-12">
+      <h1 class="text-lg text-left font-semibold">Tenzine Uzumakii</h1>
+      <p class="text-xs text-gray-600 text-left">
+        Urban Planner/Full Stack Developer
+        <a href="https://mowhs.gov.bt/" target="_blank">@MoWHS</a> Royal
+        Government of Bhutan
+      </p>
+
+      <p class="text-justify my-4 text-gray-600 text-sm">
+        3+ years of experience in providing geospatial insights for the
+        development of 20+ Spatial Plans in Bhutan. Highly proficienct in
+        Spatial Data Analysis using ArcGIS,QGIS, python, PostgreSQL. 5+ years of
+        web development experience in development of Web Mapping, Data
+        visualization & Data Collection application.
       </p>
 
       <!-- <div class="flex justify-center gap-3 text-sm mt-4">
@@ -63,31 +67,42 @@
       </div> -->
     </div>
 
-    <p class="text-sm mt-5 text-center text-gray-600">Technologies</p>
-    <div class="pt-3 flex flex-wrap mx-6 justify-center border-t">
-      <div
-        class="
-          text-xs
-          mr-2
-          my-1
-          uppercase
-          tracking-wider
-          border
-          px-2
-          text-sky-600
-          border-sky-600
-          hover:bg-sky-600
-          hover:text-sky-100
-          cursor-default
-        "
-        v-for="language in languages"
-        :key="language"
-      >
-        {{ language }}
+    <p class="text-sm mt-5 text-center text-gray-600">Experience</p>
+    <div class="pt-3 flex flex-wrap justify-center border-t">
+      <div class="flex justify-between text-sm">
+        <p class="font-semibold">Urban Planner, Compliance and Development Review Division</p>
+        <p>2018 -Present</p>
+      </div>
+      <div class="text-xs my-2 space-y-2 text-justify">
+        <p>
+          1.Developed Data Collection Application for collecting Household and
+          Building Information data for 4 Thromdes and 46 yenlag thromdes.
+        </p>
+        <p>
+          2. Developed Interactive visualization dashboard for visualization of the Household
+          data.
+        </p>
+        <p>
+          3. Developed Data collection web application for Compliance and Development Review Study 
+          for Compliance and Development Review Division.
+        </p>
+        <p>
+          4. Developed Letter Archival & Tracking system with internal Drafting,Notification and 
+          Retrieval System for the Department of Human Settlement.
+        </p>
+        <p>
+          5. Developed Red Building Dashboard during the First and second lockdown for Management of 
+          of the Red Buildings in Thimphu.
+        </p>
+
+         <p>
+          6. Developed a prototype vehicle tracking application for tracking of Waste Collection Trucks for DHI
+          Hackathon 2020.
+        </p>
       </div>
     </div>
 
-    <p class="text-sm mt-5 text-center text-gray-600">Frameworks</p>
+    <p class="text-sm mt-5 text-center text-gray-600">FrameWorks</p>
     <div class="pt-3 flex flex-wrap justify-center mx-6 border-t">
       <div
         class="
@@ -100,8 +115,7 @@
           px-2
           text-sky-900
           border-sky-900
-          hover:bg-sky-900
-          hover:text-sky-100
+          hover:bg-sky-900 hover:text-sky-100
           cursor-default
         "
         v-for="framework in frameworks"
@@ -124,8 +138,7 @@
           px-2
           text-gray-800
           border-gray-800
-          hover:bg-gray-800
-          hover:text-gray-100
+          hover:bg-gray-800 hover:text-gray-100
           cursor-default
         "
         v-for="skill in skills"
@@ -235,22 +248,23 @@ export default {
         "Docker",
         "Apache Kafka",
         "Redis",
-        "CPanel"
+        "CPanel",
       ],
       frameworks: [
-        "Vue JS",
-        "Angular",
-        "Tailwind CSS",
+        "Vue JS (*Frontend)",
+        "Angular(Frontend)",
         "Laravel",
-        "Nest JS",
-        "Flutter",
+        "Nest JS(backedn)",
+        "Flutter(Mobile Development)",
+        "Open layers(Mapping)",
+        "Leaflet(Mapping)",
       ],
       skills: [
         "Database Design",
         "Website Design",
         "Data Analytics",
         "Geospatial Analysis",
-        "Graphics Design"
+        "Graphics Design",
       ],
     };
   },
